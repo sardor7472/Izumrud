@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "ProximaNova";
+    src: url("../fonts/proxima_ssv/proximaRegular.woff") format('woff');
+    font-weight: 400;
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url("../fonts/proxima_ssv/proximaSemiBold.ttf") format('ttf');
+    font-weight: 600;
+}
+body {
+    font-family: 'ProximaNova', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+h2{
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+}
+h3{
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+}
+h4{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+h5 {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+.pointer{
+    cursor: pointer;
+}
+.f-16 {
+    font-size: 16px;
+}
+.m-b-20{
+    margin-bottom: 20px;
+}
+.m-b-30{
+    margin-bottom: 30px;
+}
+.m-b-40{
+    margin-bottom: 40px;
+}
+.pos-r {
+    position: relative;
+}
+img {
+    max-width: 100%;
+}
+.transition {
+    transition: all 0.2s linear;
+}
+.txt-editor p {
+    margin-bottom: 10px;
+}
+.txt-editor h5 {
+    margin-bottom: 15px;
+}
+.equal-offsets>.col, .equal-offsets>[class*=col-] {
+    padding: 15px;
+}
+.clear-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Order</title>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="order.css">
+
+
+</head>
+<body>
+<main>
+    <div class="container">
+        <h2 class="">Оформление заказа</h2>
+        <div class="order-title">
+
+        <div class="order-main">
+            <div class="for-left">
+                <form class="order-data" action="#">
+                    <input class="order-form" type="text" placeholder="ФИО">
+                    <input class="order-form" type="text" placeholder="Телефон">
+                    <input class="order-form" type="text" placeholder="Регион">
+                    <input class="order-form" type="text" placeholder="Адрес">
+                    <input class="order-bot" type="submit" value="Получить код">
+                    <input class="order-kod" type="text" placeholder="Код">
+                </form>
+            </div>
+            <div class="for-right order-pnt">
+               <div class="order-right">
+                   <p>Ваш заказ</p>
+                   <ul>
+                       <li>Товаров (2):</li>
+                       <li class="order-summ">700 000 сум</li>
+                   </ul>
+                   <ul>
+                       <li>Итого к оплате:</li>
+                       <li>700 000 сум</li>
+                   </ul>
+                   <a class="order-right-bot" href="#">Оформить заказ</a>
+               </div>
+            </div>
+        </div>
+
+        </div>
+
+
+
+
+        <div class="order-payment">
+            <p class="pay-tor">Способ оплаты</p>
+        <div class="pay-main">
+            <div class="pay-cat">
+                <div class="pay-main-item">
+                    <label class="cont">
+                        <input type="checkbox">
+                        <span class="chekmark"></span>
+                    </label>
+                </div>
+                <div class="pay-main-img">Наличные <br/> или терминал</div>
+            </div>
+            <div class="pay-cat">
+                <div class="pay-main-item">
+                    <label class="cont">
+                        <input type="checkbox">
+                        <span class="chekmark"></span>
+                    </label>
+                </div>
+                <div class="pay-main-img">
+                    <img src="../images/click.png" alt="">
+                </div>
+            </div>
+            <div class="pay-cat">
+                <div class="pay-main-item">
+                    <label class="cont">
+                        <input type="checkbox">
+                        <span class="chekmark"></span>
+                    </label>
+                </div>
+                <div class="pay-main-img">
+                    <img src="../images/payme.png" alt="">
+                </div>
+            </div>
+            <div class="pay-cat">
+                <div class="pay-main-item">
+                    <label class="cont">
+                        <input type="checkbox">
+                        <span class="chekmark"></span>
+                    </label>
+                </div>
+                <div class="pay-main-img">
+                    <img src="../images/visa.png" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="order-payment">
+            <p class="pay-tor">Товары в заказе</p>
+            <table>
+                <tr>
+                    <th>Описание товара</th>
+                    <th></th>
+                    <th>Количество</th>
+                    <th>Сумма</th>
+                </tr>
+                <tr class="order-product">
+                    <td><img src="../images/card1.png" alt=""></td>
+                    <td>Бижутерия<br/>300 000 сум</td>
+                    <td>1 шт.</td>
+                    <td>300 000 сум</td>
+                    <td class="order-delet"><img src="../images/delet.png" alt=""></td>
+                </tr>
+                <tr class="order-product">
+                    <td><img src="../images/card1.png" alt=""></td>
+                    <td>Бижутерия<br/>300 000 сум</td>
+                    <td>1 шт.</td>
+                    <td>300 000 сум</td>
+                    <td class="order-delet"><img src="../images/delet.png" alt=""></td>
+                </tr>
+            </table>
+
+        </div>
+
+
+
+    </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,138 @@
+.catalog-title{
+    text-transform: uppercase;
+}
+.bread-cr{
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.bread-cr li{
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.bread-cr li+li{
+    margin-left: 20px;
+    color: #852d84;
+}
+.bread-cr li+li::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 10px;
+    background-image: url('../images/angle-right-icon.png');
+}
+.catalog-order{
+    background-color: #d85ed7;
+    padding: 20px 20px;
+}
+.catalog-order ul{
+    padding: 0;
+    margin: 0;
+}
+.catalog-order ul li{
+    display: inline-block;
+    font-size: 15px;
+}
+.catalog-order ul li+li{
+    margin-left: 30px;
+}
+.catalog-icon-next{
+    position: relative;
+}
+.catalog-icon::after{
+    content: '';
+    background-image: url("../images/next-buttom-black.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+}
+input[type=text]{
+    width: 120px;
+}
+.catalog-place{
+    margin-top: 40px;
+}
+.main-nav-submenu {
+
+    border: 1px solid #f7e0f7;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #fff;
+    padding: 0 25px;
+}
+.main-nav-submenu li {
+    padding: 10px 0;
+    color: #353535;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.main-nav-submenu li::before {
+    content: '';
+    background: url('../images/angle-right-icon.png') no-repeat center center;
+    position: absolute;
+    right: 0;
+    width: 8px;
+    height: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.pagination-footer{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.pag{
+    margin: 0 auto;
+}
+.pag a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+.pagination a.active {
+    background-color: #d85ed7;
+    color: white;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+    .input-last{
+        margin-left: 40px;
+    }
+    .catalog-icon::after{
+        left:65px;
+    }
+    .catalog-order ul li{
+        display: block;
+    }
+    .catalog-order ul li+li{
+        margin: 0;
+
+    }
+}

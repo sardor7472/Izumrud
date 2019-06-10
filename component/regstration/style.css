@@ -1,0 +1,23 @@
+.regs{
+    text-align: center;
+}
+input[type=text]{
+    width: 587px;
+    width: 60%;
+    padding: 15px 30px;
+}
+.regs-group{
+    margin-top: 50px;
+    text-align: center;
+}
+input[type=submit]{
+    background-color:#d85ed7;
+    padding: 18px 27px;
+    margin-top: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.regs-input-item{
+    margin-top: 20px;
+}

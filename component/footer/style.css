@@ -1,0 +1,170 @@
+.footer-menu{
+    margin-bottom: 40px;
+}
+.about-title{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+.text-up{
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.about-title-item a{
+    text-decoration: none;
+    color:#353535;
+}
+.about-title-item a:hover{
+    color: #5a345a;
+}
+.about-title li+li{
+    padding-top: 23px;
+}
+.phone-text{
+    font-size: 14px;
+    text-align: right;
+}
+.phone{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: right;
+}
+.footer-img{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.footer-img li{
+    display: inline-block;
+}
+.footer-img li+li{
+    padding-left: 10px;
+}
+.footer-but{
+    width: 100%;
+    background-color: #462746;
+    color: #bc9abc;
+    font-size: 14px;
+}
+.footer-left{
+    text-align: right;
+}
+.footer-izumrud{
+    padding: 50px 0;
+}
+.footer-sos{
+    color: #bc9abc;
+}
+.footer-sos:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/*********/
+/*** media ***/
+/*********/
+@media screen and (max-width: 991px){
+    .news-title-item {
+        text-align: center;
+    }
+    .news-date {
+        flex-direction: column;
+        position: static;
+        margin-top: 20px;
+    }
+    .news-main{
+        flex-direction: column;
+    }
+    .news-main-item{
+        margin-bottom: 40px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .buyurtma-top div{
+        margin-top: 30px;
+    }
+
+}
+@media screen and (max-width: 767px){
+    .footer-img{
+        text-align: center;
+    }
+    .about-title{
+        text-align: center;
+    }
+    .phone-text{
+        text-align: center;
+    }
+    .phone{
+        text-align: center;
+    }
+    .footer-menu div+div{
+        margin-top: 30px;
+    }
+    .footer-izumrud p{
+        text-align: center;
+        padding-top: 20px 0;
+    }
+    .footer-izumrud{
+        padding: 20px 0;
+    }
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .footer-img{
+        text-align: center;
+    }
+}
+.buyurtma-top .buyurtma{
+    justify-content: center;
+}
+.tovar-card-div {
+    height: auto;
+    border: 1px solid #852d84
+}
+
+.tovar-zakaz {
+    position: static;
+    padding-top: 0;
+    border: 0;
+}
+
+.tovar-card-div:hover .tovar-zakaz {
+    height: auto;
+    padding-bottom: 0;
+    z-index: 2;
+    border: none;
+    box-shadow: none;
+}
+
+
+
+
+.tovar-zakaz-inner {
+    position: static;
+    padding: 0;
+}
+.tovar-card-title{
+    text-align: center;
+}
+.tovar-card-price{
+    text-align: center;
+}
+.tovar-zakaz-text{
+    margin: 0 auto;
+}
+
+
+/*media*/

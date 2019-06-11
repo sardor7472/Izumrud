@@ -115,12 +115,6 @@ input[type=text]{
 }
 
 
-
-
-
-
-
-
 @media screen and (max-width: 576px){
     .input-last{
         margin-left: 40px;

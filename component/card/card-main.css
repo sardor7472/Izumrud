@@ -428,11 +428,10 @@
 }
 
 
-
+/*media*/
 @media screen and (max-width: 576px) {
     .footer-img{
         text-align: center;
-    }
     }
     .buyurtma-top .buyurtma{
         justify-content: center;
@@ -441,13 +440,11 @@
         height: auto;
         border: 1px solid #852d84
     }
-
     .tovar-zakaz {
         position: static;
         padding-top: 0;
         border: 0;
     }
-
     .tovar-card-div:hover .tovar-zakaz {
         height: auto;
         padding-bottom: 0;
@@ -455,10 +452,6 @@
         border: none;
         box-shadow: none;
     }
-
-
-
-
     .tovar-zakaz-inner {
         position: static;
         padding: 0;
@@ -474,4 +467,4 @@
     }
 }
 
-/*media*/
+

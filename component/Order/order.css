@@ -8,7 +8,7 @@
     justify-content: space-between;
 }
 .for-left{
-    width: 585px;
+    width: 53%;
 }
 .for-right{
     width: 337px;
@@ -36,7 +36,7 @@
     border: none;
 }
 .order-kod{
-    width: 380px;
+    width: 65%;
     margin-left: 18px;
 }
 .order-right{
@@ -99,7 +99,7 @@
 }
 table{
     margin-top: 25px;
-    width: 80%;
+    width: 75%;
     height: 50px;
 }
 .order-product{
@@ -187,6 +187,9 @@ table{
 
 /****** media *****/
 @media  (max-width: 1200px){
+    .order-kod{
+        width: 58%;
+    }
     .order-pnt{
         margin-top: 20px;
     }
@@ -194,7 +197,16 @@ table{
         margin-right: 0;
     }
 }
+@media (max-width: 991px){
+    .order-kod{
+        width: 70%;
+    }
+}
+
 @media (max-width: 767px){
+    .for-left{
+        width: 100%;
+    }
     table{
         width: 100%;
     }

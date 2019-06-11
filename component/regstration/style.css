@@ -1,9 +1,8 @@
 .regs{
     text-align: center;
 }
-input[type=text]{
-    width: 587px;
-    width: 60%;
+.regs-input-item,.regs-input{
+    width: 53%;
     padding: 15px 30px;
 }
 .regs-group{
@@ -20,4 +19,23 @@ input[type=submit]{
 }
 .regs-input-item{
     margin-top: 20px;
+}
+
+
+/******** media *******/
+@media (max-width: 991px) {
+    .regs-input{
+        width: 70%;
+    }
+    .regs-input-item{
+        width: 70%;
+    }
+}
+@media (max-width: 767px) {
+    .regs-input{
+        width: 100%;
+    }
+    .regs-input-item{
+        width: 100%;
+    }
 }

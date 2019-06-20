@@ -2,23 +2,27 @@
     text-align: center;
 }
 .regs-input-item,.regs-input{
-    width: 53%;
-    padding: 15px 30px;
+    width: 59%;
+    padding: 16px 31px;
 }
 .regs-group{
-    margin-top: 50px;
+    margin-top: 42px;
     text-align: center;
+}
+.regs{
+    text-transform: uppercase;
 }
 input[type=submit]{
     background-color:#d85ed7;
-    padding: 18px 27px;
-    margin-top: 40px;
+    padding: 21px 40px;
+    margin-top: 44px;
     font-size: 15px;
     text-transform: uppercase;
     color: #fff;
+    cursor: pointer;
 }
 .regs-input-item{
-    margin-top: 20px;
+    margin-top: 26px;
 }
 
 

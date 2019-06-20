@@ -7,9 +7,10 @@
     font-weight: 600;
 }
 .about-main{
-    margin-top: 48px;
+    margin-top: 41px;
 }
 .bread-cr li{
+    text-transform: uppercase;
     position: relative;
     list-style: none;
     display: inline-block;
@@ -38,17 +39,24 @@
     height: auto;
     width: 100%;
 }
+.about-title-txt{
+    margin-top: 54px;
+    text-transform: uppercase;
+}
 .about-text{
     margin-top: 60px;
+    margin-left: 30px;
+    line-height: 33px;
+    text-align: justify;
+}
+.about-txt p{
+    line-height: 33px;
 }
 .about-txt-first{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .about-txt-second{
-    margin-top: 60px;
-}
-.about-main-item p{
-    font-size: 18px;
+    margin-top: 45px;
 }
 .about-main-item{
     margin-bottom: 120px;
@@ -56,7 +64,9 @@
 .about-box{
     margin-top: 80px;
 }
-
+.we{
+    text-transform: uppercase;
+}
 /*********** media *************/
 @media screen  and (max-width: 576px){
     .bread-cr{

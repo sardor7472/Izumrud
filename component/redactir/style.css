@@ -2,17 +2,17 @@
     text-align: center;
 }
 .regs{
-    margin-top: 123px;
+    margin-top: 130px;
+    text-transform: uppercase;
 }
 .regs-forum{
     width: 74%;
     padding: auto;
     margin: 0 auto;
-    margin-top: 45px;
+    margin-top: 40px;
 }
-.regs-forum input{
-    padding: 15px 30px;
-
+.regs-fio,.regs-tel,.regs-adres,.regs-email{
+    padding: 13px 30px;
 }
 .regs-fio{
     width: 48.78%;
@@ -38,10 +38,12 @@ input[type=submit]{
     background-color: #d85ed7;
     color: #fff;
     margin-top: 40px;
+    padding: 18px 21px;
+    cursor: pointer;
 }
 
 .cabinet-banner {
-    padding: 45px 0 0 25px;
+    padding: 30px 0 0 25px;
     background: #fbeafc;
     position: relative;
     left: -20px;
@@ -58,11 +60,10 @@ input[type=submit]{
     padding: 0;
 }
 .cabinet-banner-list li {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-right: 70px;
     padding-bottom: 10px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 14px;
     border-bottom: 6px solid transparent;
 
 }

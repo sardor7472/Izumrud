@@ -1,30 +1,34 @@
 .pass-title{
     text-align: center;
-    margin-top: 86px;
+    margin-top: 104px;
+    text-transform: uppercase;
 }
 .pass-forum{
-    width: 53%;
+    width: 58.6%;
     margin: 0 auto;
     margin-top: 20px;
     text-align: center;
 }
 .pass-group input{
-    padding: 15px 28px;
-    font-size: 15px;
+
 }
 .pass-input{
     width: 100%;
+    padding: 19px 28px;
+    font-size: 15px;
 }
 input[type=submit]{
+    padding: 20px 26px;
     background-color: #d85ed7;
-    margin-top: 40px;
+    margin-top: 43px;
     color: #fff;
+    text-transform: uppercase;
 }
 .pass-input{
-    margin-top: 20px;
+    margin-top: 23px;
 }
 .cabinet-banner {
-    padding: 45px 0 0 25px;
+    padding: 40px 0 0 25px;
     background: #fbeafc;
     position: relative;
     left: -20px;
@@ -58,7 +62,6 @@ input[type=submit]{
     position: relative;
     z-index: 1;
 }
-
 
 /******* media ******/
 @media (max-width: 767px){

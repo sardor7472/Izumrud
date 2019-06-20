@@ -1,7 +1,7 @@
 .bread-cr{
     margin: 0;
     padding: 0;
-    margin-top: 30px;
+    margin-top: 15px;
     font-size: 15px;
     cursor: pointer;
 }
@@ -30,8 +30,10 @@
 }
 .faq p {
     position: relative;
-    margin-top: 50px;
-    padding: 0 10px;
+    margin-top: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
     border-bottom: 1px solid #000;
     font-size: 18px;
 }

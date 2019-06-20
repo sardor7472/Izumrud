@@ -17,9 +17,11 @@
 }
 .buyurtma img{
     margin-right: 20px;
+    width: 49px;
+    height: 56px;
 }
 .buyurtma-top{
-    margin-bottom: 100px;
+    margin-bottom: 96px;
 }
 .buyurtma span{
     font-size: 15px;
@@ -29,7 +31,7 @@
 .tovar-title{
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 .tovar-txt {
     text-transform: uppercase;
@@ -48,10 +50,24 @@
     top: 50%;
     transform: translateY(-50%);
 }
+.tovar-card{
+    margin-bottom: 36px;
+}
 .tovar-card-div {
     padding: 20px;
     overflow: hidden;
     height: 320px;
+}
+.tovar-card-beg{
+    font-size: 14px;
+    padding-left: 8px;
+    color: #fff;
+    background-color: #b642b5;
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 52px;
+    height: 24px;
 }
 .tovar-card-inner{
     overflow: hidden;
@@ -107,9 +123,12 @@
 .tovar-card-div:hover .tovar-zakaz {
     height: auto;
     padding-bottom: 90px;
-    z-index: 2;
+    z-index: 6;
     border: 1px solid #d85ed7;
     box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+.tovar-card-div:hover .product-wish-icon {
+    z-index: 7;
 }
 
 .tovar-zakaz{
@@ -128,19 +147,19 @@
     padding-left: 20px;
     background: #fff;
     width: 100%;
-    padding-bottom: 25px;
+    padding-bottom: 18px;
 }
 .tovar-zakaz-text{
-    background-color: #852d84;
-    padding: 20px 30px;
+    background-color: #d85ed7;
+    padding: 16px 30px;
     width: 170px;
 
 }
-.tovar-zakaz-text span{
+.tovar-zakaz-inner{
     color: #fff;
 }
 .product{
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 
@@ -158,12 +177,18 @@
 .product-title{
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 10px;
 }
 .tovar-text{
-    margin-bottom: 30px;
+    margin-bottom: 14px;
+}
+.tovar-text-new{
+    margin-bottom: 14px;
+}
+.tovar-text-brend{
+    margin-bottom: 24px;
 }
 .tovar-categore{
-    margin-bottom: 40px;
     text-align: center;
 }
 .tovar-categore-item{
@@ -171,18 +196,18 @@
     font-size: 18px;
 }
 .new{
-    margin-bottom: 40px;
+    margin-bottom: 73px;
 }
 .product-item{
     text-align: center;
 }
-.product-pnt{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.product-item p{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #d85ed7;
 }
 .banner-img{
-    margin-bottom: 60px;
+    margin-bottom: 55px;
     width: 100%;
     height: 180px;
     background-image: url("../images/reklama-banner.png");
@@ -195,13 +220,19 @@
 }
 
 .new-main{
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 .ochki{
     margin-bottom: 20px;
 }
-.slaider-style{
-    margin-top: 60px;
+.ochki-img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+.ochki-right-top img{
+    width: 100%;
+    height: 460px;
 }
 /************ New********/
 
@@ -210,8 +241,9 @@
     margin-bottom: 115px;
 }
 .news-title{
+    text-transform: uppercase;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
 }
 .news-img{
     position: relative;
@@ -233,6 +265,8 @@
 .news-title-text{
     margin-bottom: 30px;
     text-align: justify;
+    overflow: hidden;
+    height: 50px;
 }
 .news-title-wrap{
     padding-top: 10px;
@@ -243,12 +277,14 @@
     height: 340px;
 }
 .news-date{
+    font-size: 15px;
+    font-weight: 600;
     position: absolute;
     left: 0;
     bottom: 0;
     background-color: #852d84;
     color: #fff;
-    padding: 15px 20px;
+    padding: 8px 18px;
 }
 .text-right a{
     text-decoration: none;
@@ -287,9 +323,26 @@
     max-width: 610px;
 }
 .news-main-item-left .row+.row{
-    margin-top: 40px;
+    margin-top: 8px;
+}
+.product-wish-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 5;
 }
 
+.product-wish-icon svg {
+    display: none;
+}
+
+.product-wish-icon svg.active {
+    display: block;
+}
+
+.product-wish-icon svg path {
+    fill: #d85ed7
+}
 
 
 
@@ -306,6 +359,10 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
+}
+.brend img{
+    width: 200px;
+    height: 170px;
 }
 /************ Brend********/
 
@@ -329,17 +386,19 @@
     color:#353535;
 }
 .about-title li+li{
-    padding-top: 23px;
+    padding-top: 15px;
 }
 .phone-text{
     font-size: 14px;
     text-align: right;
+    letter-spacing: 0.35px;
 }
 .phone{
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 40px;
     text-align: right;
+    letter-spacing: 1.5px;
 }
 .footer-img{
     list-style: none;
@@ -353,11 +412,19 @@
 .footer-img li+li{
     padding-left: 10px;
 }
+.telegram,.fasebook,.vatsap{
+    width: 36px;
+    height: 36px;
+}
+
+.footer-izumrud p{
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    color: #bc9abc;
+}
 .footer-but{
     width: 100%;
     background-color: #462746;
-    color: #bc9abc;
-    font-size: 14px;
 }
 .footer-left{
     text-align: right;
@@ -380,6 +447,9 @@
     /*** media ***/
 /*********/
 @media screen and (max-width: 991px){
+.ochki-right-top{
+    margin-top: 20px;
+}
 .news-title-item {
     text-align: center;
 }
@@ -387,6 +457,7 @@
     flex-direction: column;
     position: static;
     margin-top: 20px;
+
 }
 .news-main{
     flex-direction: column;
@@ -420,7 +491,7 @@
     }
     .footer-izumrud p{
         text-align: center;
-        padding-top: 20px 0;
+        padding: 20px 0;
     }
     .footer-izumrud{
         padding: 20px 0;
@@ -440,6 +511,7 @@
         height: auto;
         border: 1px solid #852d84
     }
+
     .tovar-zakaz {
         position: static;
         padding-top: 0;
@@ -448,7 +520,6 @@
     .tovar-card-div:hover .tovar-zakaz {
         height: auto;
         padding-bottom: 0;
-        z-index: 2;
         border: none;
         box-shadow: none;
     }

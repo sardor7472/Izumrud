@@ -23,6 +23,7 @@ h2{
     padding: 0;
     margin: 0;
     font-size: 36px;
+    text-transform: uppercase;
 }
 h3{
     padding: 0;
@@ -41,18 +42,6 @@ h5 {
 }
 .pointer{
     cursor: pointer;
-}
-.f-16 {
-    font-size: 16px;
-}
-.m-b-20{
-    margin-bottom: 20px;
-}
-.m-b-30{
-    margin-bottom: 30px;
-}
-.m-b-40{
-    margin-bottom: 40px;
 }
 .pos-r {
     position: relative;

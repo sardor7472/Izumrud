@@ -4,7 +4,7 @@
 .bread-cr{
     margin: 0;
     padding: 0;
-    margin-top: 30px;
+    margin-top: 15px;
     font-size: 15px;
     cursor: pointer;
 }
@@ -63,7 +63,7 @@ input[type=text]{
     width: 120px;
 }
 .catalog-place{
-    margin-top: 40px;
+    margin-top: 33px;
 }
 .main-nav-submenu {
 
@@ -92,7 +92,7 @@ input[type=text]{
     transform: translateY(-50%);
 }
 .pagination-footer{
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     width: 60%;

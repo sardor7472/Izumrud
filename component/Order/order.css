@@ -8,7 +8,7 @@
     justify-content: space-between;
 }
 .for-left{
-    width: 53%;
+    width: 52%;
 }
 .for-right{
     width: 337px;
@@ -18,7 +18,7 @@
     font-size: 18px;
 }
 .order-title{
-    margin-top: 37px;
+    margin-top: 40px;
 }
 .order-data input+input{
     margin-top: 20px;
@@ -27,6 +27,7 @@
     width: 100%;
 }
 .order-bot{
+    text-transform: uppercase;
     padding: 18px 30px;
     width: 180px;
     font-size: 15px;
@@ -37,7 +38,7 @@
 }
 .order-kod{
     width: 65%;
-    margin-left: 18px;
+    margin-left: 16px;
 }
 .order-right{
     background-color: #fbeafb;
@@ -70,15 +71,16 @@
     font-size: 15px;
     font-weight: 600;
     color: #fff;
-    background-color: #852d84;
+    background-color: #d85ed7;
 }
 .order-right-bot:hover{
     text-decoration: none;
 }
 .order-payment{
-    margin-top: 80px;
+    margin-top: 62px;
 }
 .pay-tor{
+    text-transform: uppercase;
     font-size: 30px;
 }
 .order-pay{
@@ -102,6 +104,10 @@ table{
     width: 75%;
     height: 50px;
 }
+.table-title{
+    font-size: 15px;
+    padding-bottom: 14px;
+}
 .order-product{
     border: 1px solid #852d84;
 }
@@ -113,7 +119,9 @@ table{
     width: 20px;
     height: 25px;
 }
-
+.order-title-text{
+    text-transform: uppercase;
+}
 
 
 
@@ -165,6 +173,7 @@ table{
 
 .pay-main{
     display: flex;
+    margin-top: 28px;
 }
 .pay-main div+div{
     margin-left: 30px;
@@ -174,7 +183,7 @@ table{
     margin-top: 15px;
 }
 .pay-main-img{
-    margin-left: 30px;
+   text-transform: uppercase;
 }
 .pay-main-img img{
     width: 130px;
@@ -198,12 +207,24 @@ table{
     }
 }
 @media (max-width: 991px){
+    table{
+        width: 100%;
+    }
+    .for-right{
+        width: 100%;
+    }
+    .for-left{
+        width: 100%;
+    }
     .order-kod{
         width: 70%;
     }
 }
 
 @media (max-width: 767px){
+    table{
+        text-align: center;
+    }
     .for-left{
         width: 100%;
     }
@@ -227,5 +248,10 @@ table{
     }
     .order-pay{
         flex-direction: column;
+    }
+}
+@media (max-width: 480px) {
+    table{
+        font-size: 12px;
     }
 }

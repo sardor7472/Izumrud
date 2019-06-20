@@ -1,7 +1,7 @@
 .bread-cr{
     margin: 0;
     padding: 0;
-    margin-top: 30px;
+    margin-top: 15px;
     font-size: 15px;
     cursor: pointer;
 }
@@ -13,6 +13,7 @@
     list-style: none;
     display: inline-block;
     font-weight: 600;
+    text-transform: uppercase;
 }
 .bread-cr li+li{
     margin-left: 20px;
@@ -29,7 +30,7 @@
     background-image: url('../images/angle-right-icon.png');
 }
 .cart{
-    margin-top: 50px;
+    margin-top: 44px;
 }
 .cart-img1{
     width: 100%;
@@ -48,7 +49,7 @@
 }
 .cart-but{
     position: relative;
-    padding: 20px 30px;
+    padding: 12px 30px;
     background-color: #d85ed7;
     box-sizing: border-box;
     width: 170px;
@@ -61,13 +62,13 @@
     text-decoration: none;
 }
 .cart-id{
-    margin-top: 20px;
+    margin-top: 14px;
 }
 .cart-pres{
-    margin-top: 40px;
+    margin-top: 24px;
 }
 .cart-number{
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
 }
 .cart-but-img{
@@ -110,16 +111,66 @@
     display: inline-block;
     padding-top: 4px;
 }
-
-
-
-
-
-
+.footer-options{
+    margin-top: 70px;
+}
+.options{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.title-option{
+    margin-top: 22px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.title-option li+li{
+    margin-top: 22px;
+}
+.title-option-txt{
+    margin-top: 70px;
+    font-size: 18px;
+}
+.title-option-txt li+li{
+    margin-top: 13px;
+}
+.option-text{
+    margin-top: 20px;
+    line-height: 30px;
+}
 
 
 @media (max-width: 991px){
+    .cart-menus{
+        margin-left: auto;
+    }
+    .cart-add{
+        margin-right: auto;
+    }
     .cart-img2{
         margin-top: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-cart h2{
+        text-align: center;
+    }
+    .cart-number,.cart-menus,.number,.cart-add{
+        text-align: center;
+    }
+    .cart-imgs{
+        text-align: center;
+    }
+    .title-option{
+        text-align: center;
+    }
+    .title-option-txt{
+        text-align: center;
+    }
+    .options{
+        text-align: center;
+    }
+    .option-text{
+        text-align: justify;
     }
 }
